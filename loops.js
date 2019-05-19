@@ -21,5 +21,14 @@ function whileLoop(num) {
 }
 
 function doWhileLoop(num) {
-  
+  do {
+    
+  }
+}
+
+var doint = 0;
+ 
+function incrementVariable() {
+  i = i + 1;
+  return i;
 }
