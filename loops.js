@@ -23,7 +23,7 @@ function whileLoop(num) {
 function doWhileLoop(num) {
   do {
     
-  }
+  } while (incrementVariable() < num);
 }
 
 var doint = 0;
