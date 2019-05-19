@@ -22,13 +22,13 @@ function whileLoop(num) {
 
 function doWhileLoop(num) {
   do {
-    console.log "I run once regardless.";
+    console.log("I run once regardless.");
   } while (incrementVariable() < num);
 }
 
 var doint = 0;
  
 function incrementVariable() {
-  i = i + 1;
-  return i;
+  doint = doint + 1;
+  return doint;
 }
